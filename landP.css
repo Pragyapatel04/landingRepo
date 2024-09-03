@@ -1,0 +1,76 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+.header{
+display: flex;
+flex-direction:row;
+padding:10px; 
+justify-content:space-between; 
+background-color:cadetblue ;
+}
+a{
+  text-decoration: none;
+}
+li{
+list-style-type: none;
+}
+button{
+  border:none;
+  height:30px;
+  width:80px;
+  border-radius: 5px;
+}
+.items{
+  display: flex;
+  flex-direction: row;
+   justify-content: space-evenly; 
+}
+.category{
+  display:flex;
+  flex-direction:row;
+  
+}
+.item{
+display:flex;
+flex-direction:row;
+/* overflow: scroll; */
+}
+.fix{
+  background-color: aqua;
+}
+.fix button{
+  background-color: white;
+  color:darkblue;
+  justify-content: center;
+}
+.sports{
+  display:flex;
+  flex-direction:row;
+}
+.fixed{
+ background-color: aquamarine;
+ /* width: 12%; */
+} 
+.sports-item{
+  display:flex;
+  flex-direction:row;
+}
+.footer{
+  display:flex;
+  flex-direction:row;
+  background-color: black;
+  color:white ;
+  justify-content: space-evenly; 
+}
+.first{
+  margin:20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; 
+}
+.second{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; 
+}
